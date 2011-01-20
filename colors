@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Setup some colors to use later in interactive shell or scripts
 export COLOR_NC='\033[0m' # No Color

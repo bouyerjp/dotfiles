@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # ssh agent for Git
 SSH_ENV="$HOME/.ssh/environment"

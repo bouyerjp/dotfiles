@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 FILE_COLORS="$HOME/dotfiles/colors"
 # Colors
