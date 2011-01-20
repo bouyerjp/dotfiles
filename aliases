@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # Aliases
+alias reload='. ~/.bashrc'
+
 alias c='clear'
 
 alias cd..='cd ..'
