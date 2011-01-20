@@ -1,5 +1,3 @@
-#!/bin/sh
-
 FILE_COLORS="$HOME/dotfiles/colors"
 # Colors
 if [ -f FILE_COLORS -a -r FILE_COLORS ]
