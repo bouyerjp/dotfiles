@@ -1,17 +1,28 @@
-FILE_COLORS="colors"
+echo "$HOME/dotfiles/bashrc sourced..."
+
+FILE_COLORS="$HOME/dotfiles/colors"
 # Colors
-if [ -r $FILE_COLORS ]
+if [ -f $FILE_COLORS ]
 then
   source $FILE_COLORS
+else
+  echo "$FILE_COLORS not sourced!"
 fi
 
-FILE_SSH_AGENT="ssh_agent"
+FILE_SSH_AGENT="$HOME/dotfiles/ssh_agent"
 # ssh_agent
-if [ -r $FILE_SSH_AGENT ]
+if [ -f $FILE_SSH_AGENT ]
 then
   source $FILE_SSH_AGENT
+else
+  echo "$FILE_AGENT not sourced!"
 fi
 
-FILE_ALIASES="aliases"
+FILE_ALIASES="$HOME/dotfiles/aliases"
 # Aliases
-[ -r $FILE_ALIASES ] && source $FILE_ALIASES
+if [ -f $FILE_ALIASES ]
+then
+  source $FILE_ALIASES
+else
+  echo "$FILE_ALIASES not sourced!"
+fi

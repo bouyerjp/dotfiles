@@ -1,3 +1,5 @@
+echo "$HOME/dotfiles/ssh_agent sourced..."
+
 # ssh agent for Git
 SSH_ENV="$HOME/.ssh/environment"
 

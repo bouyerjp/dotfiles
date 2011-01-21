@@ -1,3 +1,5 @@
+echo "$HOME/dotfiles/aliases sourced..."
+
 # Aliases
 alias reload='. ~/.bashrc'
 
